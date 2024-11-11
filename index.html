@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ótica Cactu's - Início</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-left">
+            <div class="logo">
+               <img src="/assets/logo1.png" alt="">
+            </div>
+
+            <nav>
+                <ul>
+                    <li>
+                        <a class="ativar" href="/index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="/sobre.html">Sobre Nós</a>
+                    </li>
+                    <li>
+                        <a href="/produtos.html">Produtos</a>
+                    </li>
+                    <li>
+                        <a href="/contato.html">Contato</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="header-right">
+            <div class="hamburger">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+
+        </div>
+    </header>
+    
+    <section class="bem-vindo">
+        <h1>Bem-vindo à Ótica Cactu's </h1>
+        <p>Seu cuidado Ótica Cactu's é nossa prioridade. Oferecemos produtos de qualidade para você enxergar o melhor da vida.</p>
+    </section>
+
+    
+    <section class="produtos">
+        <h2>Nossos Produtos</h2>
+        <div class="produtos-grade">
+
+            <div class="produto-item">
+                <img src="/assets/BULGET.webp" alt="Óculos de sol modelo A">
+                <h3>BULGET </h3>
+            </div>
+
+            <div class="produto-item">
+                <img src="/assets/CALVIN KLEIN JEANS.webp" alt="Óculos de grau modelo B">
+                <h3>CALVIN KLEIN JEANS</h3>
+               
+            </div>
+
+            <div class="produto-item">
+                <img src="/assets/PLATINI.webp" alt="Óculos esportivo modelo C">
+                <h3>PLATINI</h3>
+            </div>
+
+            <div class="produto-item">
+                <img src="/assets/VOGUE.webp" alt="Óculos de sol modelo D">
+                <h3>VOGUE</h3>
+               
+            </div>
+
+            <div class="produto-item">
+                <img src="/assets/CARRERA.webp" alt="Óculos de grau modelo E">
+                <h3>CARRERA</h3>
+            
+            </div>
+
+            <div class="produto-item">
+                <img src="/assets/SPEEDO.webp" alt="Óculos esportivo modelo F">
+                <h3>SPEEDO</h3>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <p>Ótica Cactu's  - Todos os direitos reservados &copy; 2024</p>
+    </footer>
+     
+    <script>
+        hamburger = document.querySelector(".hamburger");
+        nav = document.querySelector("nav");
+        hamburger.onclick = function() {
+            nav.classList.toggle("ativar");  
+            
+        }
+    </script>
+    
+</body>
+</html>

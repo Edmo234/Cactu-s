@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ótica Cactu's  - Contato</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="header-left">
+            <div class="logo">
+               <img src="/assets/logo1.png" alt="">
+            </div>
+
+            <nav>
+                <ul>
+                    <li>
+                        <a href="/index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="/sobre.html">Sobre Nós</a>
+                    </li>
+                    <li>
+                        <a href="/produtos.html">Produtos</a>
+                    </li>
+                    <li>
+                        <a href="/contato.html">Contato</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="header-right">
+            <div class="hamburguer">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+
+        </div>
+    </header>
+    
+
+    <section class="contato">
+        <h1>Contato</h1>
+        <p>Entre em contato conosco preenchendo o formulário abaixo.</p>
+        <form action="enviar_formulario.php" method="POST">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>Ótica Cactu's - Todos os direitos reservados &copy; 2024</p>
+    </footer>
+    <script>
+        hamburger = document.querySelector(".hamburger");
+        nav = document.querySelector("nav");
+        hamburger.onclick = function() {
+            nav.classList.toggle("ativar");  
+            
+        }
+    </script>
+
+</body>
+</html>

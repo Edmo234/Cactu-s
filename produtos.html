@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ótica Cactu's  - Produtos</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="header-left">
+            <div class="logo">
+               <img src="/assets/logo1.png" alt="">
+            </div>
+
+            <nav>
+                <ul>
+                    <li>
+                        <a href="/index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="/sobre.html">Sobre Nós</a>
+                    </li>
+                    <li>
+                        <a href="/produtos.html">Produtos</a>
+                    </li>
+                    <li>
+                        <a href="/contato.html">Contato</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="header-right">
+            <div class="hamburguer">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+
+        </div>
+    </header>
+
+    
+    <section class="produtos">
+        <h2>Nossos Produtos</h2>
+        <div class="produtos-grade">
+            <div class="produto-item">
+                <img src="/assets/BULGET.webp" alt="Óculos de sol modelo A">
+                <h3>BULGET</h3>
+                <p>Bulget é uma marca de óculos de sol e óculos de grau para homens e mulheres que prezam pelo estilo clássico e atemporal.</p>
+                <p>Preço: R$ 199,90</p>
+                <button class="buy-button">Comprar</button>
+            </div>
+            <div class="produto-item">
+                <img src="oculos2.jpg" alt="Óculos de grau modelo B">
+                <h3>Óculos de Grau - Modelo B</h3>
+                <p>Leve e confortável para uso diário.</p>
+                <p>Preço: R$ 249,90</p>
+                <button class="buy-button">Comprar</button>
+            </div>
+            <div class="produto-item">
+                <img src="oculos3.jpg" alt="Óculos esportivo modelo C">
+                <h3>Óculos Esportivo - Modelo C</h3>
+                <p>Ideal para prática esportiva ao ar livre.</p>
+                <p>Preço: R$ 299,90</p>
+                <button class="buy-button">Comprar</button>
+            </div>
+            <div class="produto-item">
+                <img src="oculos4.jpg" alt="Óculos de sol modelo D">
+                <h3>Óculos de Sol - Modelo D</h3>
+                <p>Design clássico com proteção UV.</p>
+                <p>Preço: R$ 219,90</p>
+                <button class="buy-button">Comprar</button>
+            </div>
+            <div class="produto-item">
+                <img src="oculos5.jpg" alt="Óculos de grau modelo E">
+                <h3>Óculos de Grau - Modelo E</h3>
+                <p>Confortável e estiloso.</p>
+                <p>Preço: R$ 269,90</p>
+                <button class="buy-button">Comprar</button>
+            </div>
+            <div class="produto-item">
+                <img src="oculos6.jpg" alt="Óculos esportivo modelo F">
+                <h3>Óculos Esportivo - Modelo F</h3>
+                <p>Leve e resistente.</p>
+                <p>Preço: R$ 329,90</p>
+                <button class="buy-button">Comprar</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Ótica Cactu's  - Todos os direitos reservados &copy; 2024</p>
+    </footer>
+    <script>
+        hamburger = document.querySelector(".hamburger");
+        nav = document.querySelector("nav");
+        hamburger.onclick = function() {
+            nav.classList.toggle("ativar");  
+            
+        }
+    </script>
+    
+</body>
+</html>
+

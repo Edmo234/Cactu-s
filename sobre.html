@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ótica Cactu's  - Sobre Nós</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="header-left">
+            <div class="logo">
+               <img src="/assets/logo1.png" alt="">
+            </div>
+
+            <nav>
+                <ul>
+                    <li>
+                        <a href="/index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="/sobre.html">Sobre Nós</a>
+                    </li>
+                    <li>
+                        <a href="/produtos.html">Produtos</a>
+                    </li>
+                    <li>
+                        <a href="/contato.html">Contato</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="header-right">
+            <div class="hamburguer">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+
+        </div>
+    </header>
+    
+    <section class="about">
+        <h1>Sobre Nós</h1>
+        <p>A Ótica Cactu's é dedicada ao cuidado visual com produtos de alta qualidade. Com uma equipe qualificada e anos de experiência, estamos aqui para ajudar você a enxergar o mundo com mais clareza e estilo.</p>
+        <h2>Nossa Missão</h2>
+        <p>Oferecer o melhor em qualidade e atendimento para nossos clientes, proporcionando uma experiência única de compra e cuidado visual.</p>
+    </section>
+
+    <footer>
+        <p>Ótica - Todos os direitos reservados &copy; 2024</p>
+    </footer>
+    <script>
+        hamburger = document.querySelector(".hamburger");
+        nav = document.querySelector("nav");
+        hamburger.onclick = function() {
+            nav.classList.toggle("ativar");  
+            
+        }
+    </script>
+    
+</body>
+</html>
+
